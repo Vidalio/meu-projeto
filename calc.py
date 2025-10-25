@@ -5,6 +5,12 @@ def somar(a, b):
 
 def subtrair(a, b):
     return a - b
+    
+def divisao(a, b):
+    if b == 0:
+        return "Erro: divisão por zero"
+    return a / b
+
 
 if __name__ == "__main__":
     print("Soma:", somar(5, 3))
